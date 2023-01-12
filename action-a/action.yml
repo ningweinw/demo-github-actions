@@ -1,12 +1,11 @@
-name: "Hello Actions"
-description: "Greet someone"
-author: "octocat@github.com"
+name: "Demo Build Action"
+description: "Greet the developer"
+author: "Ning"
 
 inputs:
   MY_NAME:
-    description: "Who to greet"
     required: true
-    default: "World"
+    default: "DevOps User"
 
 runs:
   using: "docker"
