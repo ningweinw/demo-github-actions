@@ -1,12 +1,15 @@
-name: A workflow for my Hello World file
-on: push
+name: A demo workflow
+on:
+  push:
+    paths-ignore:
+    - '.github/**'
 
 jobs:
   build:
-    name: Hello world action
+    name: Demo build job
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: ./action-a
-        with:
-          MY_NAME: "David"
+    - uses: actions/checkout@v1
+    - uses: ./action-a
+      with:
+        MY_NAME: "David"
