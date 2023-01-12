@@ -1,5 +1,5 @@
-## Welcome to "Hello World" with GitHub Actions
+## Welcome to GitHub Actions
 
-This course will walk you through writing your first action and using it with a workflow file. 
+A simple workflow to demonstrate GitHub Actions
 
-*13th October 2021*
+*1st October 2022*
