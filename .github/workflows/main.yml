@@ -1,12 +1,11 @@
 name: A demo workflow
 on:
-  # Triggered by commit, excluding workflow and action files
+  # Triggered by commit, excluding action files
   push:
     paths-ignore:
-    - '.github/**'
     - 'action-a/**'
 env:
-  IN_NAME: ${{ vars.DEVELOPER_NAME }}
+  IN_NAME: Jim
   
 jobs:
   build:
