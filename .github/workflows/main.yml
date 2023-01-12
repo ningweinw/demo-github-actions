@@ -5,7 +5,7 @@ on:
     paths-ignore:
     - 'action-a/**'
 env:
-  IN_NAME: Jim
+  IN_NAME: David
   
 jobs:
   build:
