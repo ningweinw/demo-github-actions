@@ -1,5 +1,6 @@
 name: A demo workflow
 on:
+  # Triggered by commit, excluding workflow and action files
   push:
     paths-ignore:
     - '.github/**'
@@ -13,4 +14,4 @@ jobs:
     - uses: actions/checkout@v1
     - uses: ./action-a
       with:
-        MY_NAME: "David"
+        MY_NAME: ${{ vars.DEVELOPER_NAME }}
