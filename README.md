@@ -2,4 +2,4 @@
 
 A simple workflow to demonstrate GitHub Actions
 
-*1st October 2022*
+*1st Jan 2023*
