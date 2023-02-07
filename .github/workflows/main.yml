@@ -5,7 +5,7 @@ on:
     paths-ignore:
     - 'action-a/**'
 env:
-  IN_NAME: David
+  IN_NAME: Ning
   
 jobs:
   build:
