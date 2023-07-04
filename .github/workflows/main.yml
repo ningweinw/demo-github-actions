@@ -5,7 +5,7 @@ on:
     paths-ignore:
     - 'action-a/**'
 env:
-  IN_NAME: AZ-400
+  IN_NAME: Azure
   
 jobs:
   build:
