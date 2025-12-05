@@ -2,4 +2,4 @@
 
 A simple workflow to demonstrate GitHub Actions, this is part of DevOps foundation demo
 
-*30 Oct 2025*
+*05 Dec 2025*
